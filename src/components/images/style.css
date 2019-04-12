@@ -57,5 +57,22 @@ li {
     text-align: center;
 }
 
+.foot {
+    width: 100%;
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+a {
+    font-family: 'Fugaz One', cursive;
+    margin-left: 12px;
+    color: white;
+}
+
+.footName {
+    font-family: 'Fugaz One', cursive;
+}
 
 

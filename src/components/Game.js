@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import Card from "./Card";
 import "./images/style.css";
+import Footer from "./Footer";
 
 const images = [
     {
@@ -126,7 +127,9 @@ class Game extends React.Component {
                         })
                     }
                 </div>
-                
+                <div className="row">
+                    <Footer/>
+                </div>
             </div>
 
     
