@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import Header from "./Header";
 import Card from "./Card";
 import "./images/style.css";
@@ -62,7 +63,7 @@ class Game extends React.Component {
         maxScore: 12,
         clicked: [],
         images: images,
-        info: ""
+        info: "Click an Image to Begin"
     }
 
     imageClick = id => {
@@ -104,11 +105,14 @@ class Game extends React.Component {
     render() {
         return (
             <div>
-                <Header 
+                <Navbar 
                     x={this.state.score} 
                     y={this.state.topScore}
                     message={this.state.info}
                 />
+                <div>
+                    <Header/>
+                </div>
                 <div className="cardArea">
                     {
                         this.state.images.map(element => {

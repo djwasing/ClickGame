@@ -1,15 +1,12 @@
 import React from 'react';
+import './images/style.css';
 
-function Header(props) {
-    
+function Header() {
     return (
-        <div>
-            <h1>Moto Memory Madness</h1>
-            <h2>The Challenge: Click each image only once to win</h2>
-            <h3>Message Center: {props.message}</h3>
-            <p>Score: {props.x}</p>
-            <p>Top Score: {props.y}</p>
-        </div>
+        <header class="head">
+            <h1>Motorcycle Memory Madness</h1>
+            <h2>The Challenge: Click each image only once</h2>
+        </header>
     )
 }
 

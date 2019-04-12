@@ -20,3 +20,23 @@
     justify-content: center;
     margin: 0 auto;
 }
+
+.navbar {
+    background-color: #b80c09;
+    color: white;
+    position: fixed;
+    min-height: 70px;
+    width: 100%;
+    font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+    z-index: 99;
+    white-space: nowrap;
+}
+
+.head {
+    color: white;
+    background-color: #14213d;
+    min-height: 400px;
+    padding: 180px 20px;
+    padding-bottom: 140px;
+    text-align: center;
+}
