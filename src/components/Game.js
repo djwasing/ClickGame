@@ -63,7 +63,7 @@ class Game extends React.Component {
         maxScore: 12,
         clicked: [],
         images: images,
-        info: "Click an Image to Begin"
+        info: "Click an Image Below to Begin"
     }
 
     imageClick = id => {

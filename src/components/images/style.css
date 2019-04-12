@@ -12,6 +12,16 @@
     box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
 }
 
+h1 {
+    font-size: 55px;
+    font-family: 'Special Elite', cursive;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Kaushan Script', cursive;
+}
+
 .cardArea {
     width: 80%;
     display: flex;
@@ -19,6 +29,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
+    margin-top: 18px;
+    margin-bottom: 24px;
 }
 
 .navbar {
@@ -32,6 +44,10 @@
     white-space: nowrap;
 }
 
+li {
+    font-family: 'Fugaz One', cursive;
+}
+
 .head {
     color: white;
     background-color: #14213d;
@@ -40,3 +56,6 @@
     padding-bottom: 140px;
     text-align: center;
 }
+
+
+
