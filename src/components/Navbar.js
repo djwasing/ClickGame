@@ -4,11 +4,11 @@ import './images/style.css';
 function Navbar(props) {
     
     return (
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <ul>
-                <li>M / M / M</li>
-                <li>{props.message}</li>
-                <li>Score: {props.x} | Top Score: {props.y}</li>
+                <li id="head1">M / M / M</li>
+                <li id="head2">{props.message}</li>
+                <li id="head3">Score: {props.x} | Top Score: {props.y}</li>
             </ul>
         </nav>
     )
